@@ -1,0 +1,34 @@
+Conferência da placa B (pci_B_v3_proteus), 14/11/2026, 02:43:42
+
+OK     IPC e furação: 121 furos, todos no mesmo lugar
+OK     regiões de cobre (plano): 4, com 7 recorte(s); tratadas como cobre na conferência
+OK     jumpers: 3, todas as pontas caem em furo
+OK     todo pino do IPC tem pad no cobre de baixo
+OK     sem curto: nenhum cobre liga dois nós diferentes
+OK     sem ligação aberta: os 32 nós com pinos estão inteiros no cobre (com os jumpers)
+OK     nenhum cobre solto (todo cobre está ligado a algum pino)
+OK     peças trocadas no esquema (pino antigo = pino novo, conferido pelo nó abaixo): U4:1 = U1:3, U4:2 = U1:2, U4:3 = U1:1, JIP:1 = U1:4, JIP:2 = U1:5
+OK     esquema: os 111 pinos e os 32 nós são os mesmos de gerber_v2/B (a v2, conferida contra o método)
+OK     pegadas: em cada peça, a distância entre os furos é a mesma da referência
+OK     posição: não se compara com o método (layout refeito no Proteus); 24 de 36 peças mudaram de lugar em relação à referência; placa 100.00 × 75.00 mm (antes 99.18 × 73.78 mm)
+OK     folga mínima entre cobres de nós diferentes: 0.507 mm (#00047 x GND; regra 0,5 mm)
+OK     anel de cobre com a broca da folha: mínimo 0.36 mm em jumper (pad 1.524 mm, broca 0.8 mm) (mínimo para placa caseira: 0,35 mm)
+OK     nenhuma broca da folha é menor que o furo do Proteus
+OK     linhas do cobre de baixo: 241 trechos de trilha, 1584 traços no contorno do plano (largura 0.762 mm), 0 raios de ligação térmica
+OK     ligação térmica dos pads com o plano: os raios fazem parte do desenho da área (o Proteus os inclui no contorno, com traço de 0.762 mm); nenhum trecho do plano é mais fino que esse traço
+OK     trilhas: potência (10 nós) com 1.524 a 1.524 mm; sinal com 0.762 a 0.762 mm
+OK     nenhuma quina de 90° nas trilhas do cobre de baixo (241 trechos; toda curva tem ângulo maior que 120°)
+AVISO  cobre a menos de 3,5 mm do centro do furo de fixação (encosta na porca/espaçador M3): (95; 5): GND a 2.80 mm do centro; (5; 70): GND a 2.80 mm do centro; (95; 70): GND a 2.80 mm do centro; (5; 5): GND a 2.80 mm do centro
+OK     placa 100.00 × 75.00 mm (cabe na de 100 × 150 mm); furos de fixação a 5.00/5.00 mm das bordas
+OK     corpo das peças (contorno de montagem) dentro da placa
+OK     jumpers da folha: 3 (3V3, N, VO), todos com duas pontas
+OK     cada jumper liga dois furos do mesmo nó (conferido em 1: sem curto e sem aberto com os jumpers)
+OK     folha: 8 páginas; 10 imagens em 1:1 (100.00 × 75.00 mm): cobre para transferência ×4, lado do cobre, guia de furação, face de cima ×4
+OK     face de cima: as 4 cópias saem espelhadas (a face impressa encosta no lado dos componentes); o cobre sai sem espelhar (face de baixo vista de cima)
+OK     as duas últimas páginas têm só as cópias (cobre e face de cima)
+OK     face de cima: as 37 peças têm nome, em pé
+OK     cada nome está mais perto da própria peça (do retângulo dos furos dela) que de furo de outra peça
+OK     nenhum nome cobre furo
+OK     trilhas da folha desenhadas como formas cheias (não dependem do visualizador)
+
+0 erro(s), 1 aviso(s)

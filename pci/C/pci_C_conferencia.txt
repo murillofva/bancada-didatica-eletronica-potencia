@@ -1,0 +1,39 @@
+Conferência da placa C (pci_C_v3_proteus), 14/11/2026, 02:43:48
+
+OK     IPC e furação: 126 furos, todos no mesmo lugar
+OK     regiões de cobre (plano): 6, com 1 recorte(s); tratadas como cobre na conferência
+OK     jumpers: 13, todas as pontas caem em furo
+OK     todo pino do IPC tem pad no cobre de baixo
+OK     sem curto: nenhum cobre liga dois nós diferentes
+OK     sem ligação aberta: os 24 nós com pinos estão inteiros no cobre (com os jumpers)
+OK     nenhum cobre solto (todo cobre está ligado a algum pino)
+OK     peças trocadas no esquema (pino antigo = pino novo, conferido pelo nó abaixo): U1A2:1 = U1A:21, U1A2:2 = U1A:22, U1B2:1 = U1B:21, U1B2:2 = U1B:22
+OK     esquema: os 96 pinos e os 24 nós são os mesmos de gerber_v2/C (a v2, conferida contra o método)
+OK     pegadas: em cada peça, a distância entre os furos é a mesma da referência
+OK     módulo com duas barras: U1A:1 a U1B:1 = 25.40 mm, igual à referência
+OK     módulo com duas barras: U1A:22 a U1B:22 = 25.40 mm, igual à referência
+OK     posição: não se compara com o método (layout refeito no Proteus); 18 de 18 peças mudaram de lugar em relação à referência; placa 100.00 × 60.00 mm (antes 96.64 × 66.16 mm)
+OK     folga mínima entre cobres de nós diferentes: 0.507 mm (3V3 x LED1_A; regra 0,5 mm)
+OK     anel de cobre com a broca da folha: mínimo 0.36 mm em jumper (pad 1.524 mm, broca 0.8 mm) (mínimo para placa caseira: 0,35 mm)
+OK     nenhuma broca da folha é menor que o furo do Proteus
+OK     linhas do cobre de baixo: 234 trechos de trilha, 634 traços no contorno do plano (largura 0.762 mm), 0 raios de ligação térmica
+OK     ligação térmica dos pads com o plano: os raios fazem parte do desenho da área (o Proteus os inclui no contorno, com traço de 0.762 mm); nenhum trecho do plano é mais fino que esse traço
+OK     trilhas: potência (4 nós) com 1.524 a 1.524 mm; sinal com 0.762 a 0.762 mm
+OK     nenhuma quina de 90° nas trilhas do cobre de baixo (234 trechos; toda curva tem ângulo maior que 120°)
+OK     área bem embaixo da antena da S3 sem cobre (18 × 6,2 mm, de 1,91 a 8,15 mm além do pino U1A:1)
+AVISO  cobre perto da antena da S3, na faixa da DevKit (27.9 × 6,9 mm além do pino U1A:1), fora da área bem embaixo dela: plano GND (ex.: 16.5; 23.5), trilha GND (ex.: 16.5; 46.7)
+AVISO  cobre a menos de 3,5 mm do centro do furo de fixação (encosta na porca/espaçador M3): (5; 5): GND a 3.27 mm do centro; (95; 5): GND a 3.27 mm do centro; (5; 55): GND a 3.27 mm do centro; (95; 55): GND a 3.27 mm do centro
+OK     placa 100.00 × 60.00 mm (cabe na de 100 × 150 mm); furos de fixação a 5.00/5.00 mm das bordas
+OK     corpo das peças (contorno de montagem) dentro da placa
+OK     jumpers da folha: 13 (3V3, 3V3, 3V3, 3V3, 3V3, 5V, BTN_LIGA, BTN_ZERO, LED1, POT1, SCL, SDA, SDA), todos com duas pontas
+OK     cada jumper liga dois furos do mesmo nó (conferido em 1: sem curto e sem aberto com os jumpers)
+OK     folha: 9 páginas; 10 imagens em 1:1 (100.00 × 60.00 mm): cobre para transferência ×4, lado do cobre, guia de furação, face de cima ×4
+OK     face de cima: as 4 cópias saem espelhadas (a face impressa encosta no lado dos componentes); o cobre sai sem espelhar (face de baixo vista de cima)
+OK     as duas últimas páginas têm só as cópias (cobre e face de cima)
+OK     face de cima: as 18 peças têm nome, em pé
+AVISO  nomes a mais de 6 mm do centro da peça: R27 6.02 mm
+OK     cada nome está mais perto da própria peça (do retângulo dos furos dela) que de furo de outra peça
+OK     nenhum nome cobre furo
+OK     trilhas da folha desenhadas como formas cheias (não dependem do visualizador)
+
+0 erro(s), 3 aviso(s)

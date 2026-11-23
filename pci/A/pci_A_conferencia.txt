@@ -1,4 +1,4 @@
-Conferência da placa A (pci_A_v3_proteus), 14/11/2026, 02:39:21
+Conferência da placa A (pci_A_v3_proteus)
 
 OK     IPC e furação: 127 furos, todos no mesmo lugar
 OK     regiões de cobre (plano): 2, com 7 recorte(s); tratadas como cobre na conferência

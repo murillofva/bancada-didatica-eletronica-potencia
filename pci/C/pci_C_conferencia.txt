@@ -1,4 +1,4 @@
-Conferência da placa C (pci_C_v3_proteus), 14/11/2026, 02:43:48
+Conferência da placa C (pci_C_v3_proteus)
 
 OK     IPC e furação: 126 furos, todos no mesmo lugar
 OK     regiões de cobre (plano): 6, com 1 recorte(s); tratadas como cobre na conferência
@@ -31,7 +31,7 @@ OK     folha: 9 páginas; 10 imagens em 1:1 (100.00 × 60.00 mm): cobre para tra
 OK     face de cima: as 4 cópias saem espelhadas (a face impressa encosta no lado dos componentes); o cobre sai sem espelhar (face de baixo vista de cima)
 OK     as duas últimas páginas têm só as cópias (cobre e face de cima)
 OK     face de cima: as 18 peças têm nome, em pé
-AVISO  nomes a mais de 6 mm do centro da peça: R27 6.02 mm
+AVISO  nomes a mais de 6 mm do centro da peça: R27 7.27 mm
 OK     cada nome está mais perto da própria peça (do retângulo dos furos dela) que de furo de outra peça
 OK     nenhum nome cobre furo
 OK     trilhas da folha desenhadas como formas cheias (não dependem do visualizador)

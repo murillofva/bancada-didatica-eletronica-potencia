@@ -23,7 +23,7 @@ OK     placa 100.00 × 75.00 mm (cabe na de 100 × 150 mm); furos de fixação a
 OK     corpo das peças (contorno de montagem) dentro da placa
 OK     jumpers da folha: 3 (3V3, N, VO), todos com duas pontas
 OK     cada jumper liga dois furos do mesmo nó (conferido em 1: sem curto e sem aberto com os jumpers)
-OK     folha: 8 páginas; 10 imagens em 1:1 (100.00 × 75.00 mm): cobre para transferência ×4, lado do cobre, guia de furação, face de cima ×4
+OK     folha: 9 páginas; 0 imagens em 1:1 (100.00 × 75.00 mm): cobre para transferência ×4, lado do cobre, guia de furação, face de cima ×4
 OK     face de cima: as 4 cópias saem espelhadas (a face impressa encosta no lado dos componentes); o cobre sai sem espelhar (face de baixo vista de cima)
 OK     as duas últimas páginas têm só as cópias (cobre e face de cima)
 OK     face de cima: as 37 peças têm nome, em pé
